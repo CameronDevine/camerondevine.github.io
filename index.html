@@ -7,7 +7,7 @@
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <title>Christmas 2019</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <link rel="canonical" href="<% canonical %>">
+    <link rel="canonical" href="index.html">
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
       amp-story {
@@ -19,6 +19,21 @@
       }
       [template=thirds] {
         padding: 0;
+      }
+      p.caption {
+        background: rgba(117, 117, 117, 0.9);
+        border-radius: 6pt;
+        padding: 6pt;
+        width: -webkit-fit-content!important;
+        height: -webkit-fit-content!important;
+        width: -moz-fit-content!important;
+        height: -moz-fit-content!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        margin-top: 130%;
+      }
+      p.title {
+        margin-top: 130%;
       }
     </style>
   </head>
@@ -41,8 +56,8 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>Christmas 2019</h1>
-          <p>What we did in 2018 and 2019.</p>
+          <h1 class="title">Christmas 2019</h1>
+          <p class="title">What we did in 2018 and 2019.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -54,13 +69,13 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <p>Cameron presented his Masters thesis...</p>
+          <p class="caption">Cameron presented his Masters thesis...</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
       <amp-story-page id="cam_grad">
         <amp-story-grid-layer template="fill">
-          <amp-video autoplay loop
+          <amp-video autoplay
                 width="720"
                 height="720"
                 poster="https://holiday.camerondevine.me/assets/cam_grad.jpg"
@@ -69,7 +84,7 @@
           </amp-video>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <p>and graduated!</p>
+          <p class="caption">and graduated!</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -81,7 +96,7 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <p>Tamara got a job at UW in the President's office.</p>
+          <p class="caption">Tamara got a job at UW in the President's office.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -93,7 +108,7 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer layout="vertical">
-          <p>We took a trip to Hawaii,</p>
+          <p class="caption">We took a trip to Hawaii,</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -105,7 +120,46 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer layout="vertical">
-          <p>and got engaged.</p>
+          <p class="caption">and got engaged.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="ustheduo">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="https://holiday.camerondevine.me/assets/us_the_duo.jpg"
+            width="1080" height="1349"
+            layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer layout="vertical">
+          <p class="caption">Tamara saw Us the Duo</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="joebros">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay
+                width="720"
+                height="720"
+                poster="https://holiday.camerondevine.me/assets/joebros.jpg"
+                layout="responsive">
+                <source src="https://holiday.camerondevine.me/assets/joebros.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <p class="caption">and the Jonas Brothers!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="car">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="https://holiday.camerondevine.me/assets/car.jpg"
+            width="1080" height="1349"
+            layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer layout="vertical">
+          <p class="caption">After our old car got totalled,<br>we got a new one!</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
