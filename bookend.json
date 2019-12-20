@@ -1,6 +1,6 @@
 {
   "bookendVersion": "v1.0",
-  "shareProviders": ["email", "facebook", "twitter"],
+  "shareProviders": ["system", "email", "twitter"],
   "components": [
     {
       "type": "small",
