@@ -3,6 +3,12 @@
   "shareProviders": ["email", "twitter"],
   "components": [
     {
+      "type": "textbox",
+      "text": [
+        "Check back soon, we're still adding more pictures!"
+      ]
+    }
+    {
       "type": "small",
       "title": "Christmas 2017",
       "url": "http://holiday.camerondevine.me.s3-website-us-west-2.amazonaws.com/",
