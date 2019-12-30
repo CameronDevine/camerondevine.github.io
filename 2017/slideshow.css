@@ -1,0 +1,22 @@
+cap {
+	display: none;
+}
+slideshow {
+	text-align: center;
+}
+img.slideshow {
+	/*width: 100%;*/
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h3.slideshow {
+	display: inline;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+div.slideshow {
+	margin-left: auto;
+	margin-right: auto;
+}

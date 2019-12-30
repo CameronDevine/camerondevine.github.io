@@ -1,0 +1,14 @@
+.body {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.letter {
+	line-height: 2;
+}
+.letter-body {
+	text-indent: 2em;
+}
+.letter-end {
+	text-align: center;
+}
